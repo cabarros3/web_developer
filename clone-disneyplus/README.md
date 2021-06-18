@@ -4,7 +4,7 @@
 
 1. Como é a home do disney+?
 
-![]("https://github.com/cabarros3/web_developer/blob/master/clone-disneyplus/midia/projeto/home.png")
+![](https://github.com/cabarros3/web_developer/blob/master/clone-disneyplus/midia/projeto/home.png)
 
 Basicamente a home do disneyplus é composta de quatro campos: o menu de navegação, os destaques, os nichos com os conteúdos de cada 'estúdio' e por último, o carrousel de capas das séries e filmes. Lembrando que por toda a página seguimos na repetição do carrousel variando apenas as categorias.
 
