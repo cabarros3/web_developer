@@ -1,0 +1,97 @@
+:root {
+    --background: #13151f;
+    --color-menu: rgba(19, 21, 31, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background);
+    color: white;
+    font-family: Avenir Roman, sans-serif;
+}
+
+header .container{
+    background-color: var(--color-menu);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:start;
+}
+
+header .logo-site{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    padding: 30px;
+   
+}
+
+
+
+.item1{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+}
+
+header .logo-site a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-family: Avenir-heavy, sans-serif;
+    font-size: 12px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    border-bottom: 3px solid white;
+}
+
+header nav a i{
+    margin-right: 5px;
+}
+
+.nichos{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.tamanho-img{
+    width: 13rem;
+}
+
+.caixa-nicho{
+    margin: 1%;
+    border: 2px solid rgba(218, 216, 216, 0.2);
+    box-shadow: 0 20px 1em rgba(0,0,0,0.5);
+    background-color: #232a33ff;
+    opacity: 10px;
+    border-radius: 10px;
+}
+
+
+.head-container-filmes{
+   margin: 5% 5% 2% 8%;
+}
+
+.lista-filmes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
