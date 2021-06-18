@@ -1,0 +1,63 @@
+.style-body {
+  background-color: #0a0c1b;
+}
+#conteudo {
+  display: flex;
+  justify-content: center;
+}
+
+#container-texto {
+  background-color: #1c1938;
+  width: 400px;
+  height: 200x;
+  padding: 50px;
+}
+
+#title-container {
+  color: #a95fd4;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+#text-description {
+  color: white;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+#social-container {
+  background-color: #1c1938;
+  display: flex;
+  justify-content: flex-start;
+}
+.logo-linkedin {
+  margin-right: 50px;
+}
+.logo-linkedin:hover {
+  margin-right: 50px;
+  background-color: #a95fd4;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.logo-github {
+  margin-right: 50px;
+}
+
+.logo-github:hover {
+  margin-right: 50px;
+  background-color: #a95fd4;
+  border-radius: 5px;
+  padding: 10px;
+}
+.logo-instagram:hover {
+  margin-right: 50px;
+  background-color: #a95fd4;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#img-container {
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora freelancer</title>
+    <link rel="stylesheet" href="css/desafio.css">
+  </head>
+  
+  <body>
+    <header class="container-titulo">
+      <h1>Calculadora Freelancer Feliz &#128151;</h1>
+      <p class="subtitulo">Esta é uma calculadora para calcular o orçamento do seu projeto.<br> O cálculo é simples: o valor da sua hora de trabalho X quantas horas você pretende<br> trabalhar nesse projeto. Afinal, todo mundo merece receber um valor<br> justo pelo seu trabalho, né?! É sobre isso e tá tudo bem!</p>
+      <p></p>
+    </header>
+    <section class="conteiner-conteudo">
+       <article class="form-calculadora">
+          <!-- primeiro campo: Valor da hora !-->
+          <label for="valor-hora" class="conteudo-label">Valor por hora de trabalho</label>
+          <br>
+          <br>
+          <input type="number" class="caixa-input" id="valor-hora">
+          <br>
+          <br>
+          <!-- segundo campo: Horas trabalhadas !-->
+          <label for="horas-trabalhadas" class="conteudo-label">Horas trabalhadas</label>
+          <br>
+          <br>
+          <input type="number" class="caixa-input" id="horas-projeto">
+          <br>
+          <br>
+          <!-- botões: calcular e limpar-->
+          <br>
+          <button class="btn-style" onClick="calcular()">Calcular</button>
+      </article>
+      <div class="div-linha"></div>
+      <article class="mostra-resultado">
+        <span id="resposta">R$ 0,00</span>
+        <a href="https://camilla-barros-ws-backend.netlify.app/">Voltar</a>
+      </article>
+    </section>
+
+    <script src="js/desafio.js"></script>
+  </body>
+</html>
