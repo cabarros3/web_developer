@@ -2,17 +2,17 @@
 
 ## Calculadora freelancer - [Reprograma](https://github.com/cabarros3/projetos_web/tree/main/ws-reprograma)
 
-![calculadora](https://github.com/cabarros3/projetos_web/blob/main/ws-reprograma/img/calculadora_site.PNG)
+![calculadora](C:\workspace\img\reprograma.PNG)
 
 ## Women Who Code - Chalanges
 
-![](https://github.com/cabarros3/projetos_web/blob/main/wwcodechalanges/chalange01/img/site.PNG)
+![](C:\workspace\img\wwc.PNG)
 
 ## [Clone da Netflix](https://n3tflix-clone.netlify.app/)
 
-![](https://github.com/cabarros3/projetos_web/blob/main/img/Capturar.PNG)
+![](C:\workspace\img\Capturar.PNG)
 
 ## [Clone do Instragram](https://github.com/cabarros3/projetos_web/tree/main/clone-instagram)
 
-![](https://github.com/cabarros3/projetos_web/blob/main/clone-instagram/img/instaclone.PNG)
+![](C:\workspace\img\insta-page.PNG)
 
