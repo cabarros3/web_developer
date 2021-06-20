@@ -1,0 +1,344 @@
+:root{
+    --font-colo1: rgb(180, 155, 200);
+    --bg-color2: rgb(41, 65, 171);
+    --font-color2: rgb(30, 215, 96);
+    --bg-color1: #503750;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: white;
+}
+
+.header-site{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+}
+
+.logo-header{
+    font-family: Helvetica, sans-serif;
+    background-color: inherit;
+    padding-left: 4%;
+}
+
+.menu-header{
+    background-color: inherit;
+}
+.menu-header a{
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    background-color: inherit;
+}
+
+.menu-header a:hover{
+    color: rgb(30, 215, 96);
+}
+
+.login{
+    color: #919496;
+}
+
+.container-premium{
+    width: 100%;
+    height: 800px;
+    background-color: var(--bg-color1);
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    padding-left: 5%;
+}
+
+.container-premium p{
+    background-color: inherit;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    color: var(--font-colo1);
+    font-weight: bold;
+}
+
+.container-premium h1{
+    background-color: inherit;
+    font-size: 60px;
+    font-family: Helvetica, sans-serif;
+    color: var(--font-colo1);
+    padding-bottom: 20px;
+}
+
+.container-premium h2{
+    background-color: inherit;
+    background-color: inherit;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    color: var(--font-colo1);
+    padding-bottom: 20px;
+}
+
+.container-premium div{
+    background-color: inherit;
+}
+
+.container-premium .botao{
+    background:rgb(180, 155, 200);
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao span{
+    text-decoration: none;
+    background-color: inherit;
+    color: #000;
+}
+
+.botao:hover{
+    transform: scale(0.9);
+    transition: 0.5s ease all;
+    font-size: 10px;
+}
+
+.botao:hover span a{
+    font-size: 15px;
+}
+
+
+.botao span{
+    background-color: inherit;
+    font-size: 14px;    
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao span a{
+    background-color: inherit;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.baixe-app{
+    width: 100%;
+    height: 800px;
+    background-color: var(--bg-color2);
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    padding-left: 5%;
+}
+
+.baixe-app p{
+    background-color: inherit;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    color: var(--font-color2);
+    font-weight: bold;
+}
+
+.baixe-app h1{
+    background-color: inherit;
+    font-size: 60px;
+    font-family: Helvetica, sans-serif;
+    color: var(--font-color2);
+    padding-bottom: 20px;
+}
+
+.baixe-app h2{
+    background-color: inherit;
+    background-color: inherit;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    color: var(--font-color2);
+    padding-bottom: 20px;
+}
+
+.baixe-app .botao-free{
+    background: rgb(30, 215, 96);
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-free span{
+    text-decoration: none;
+    background-color: inherit;
+    color: #000;
+}
+
+.botao-free:hover{
+    transform: scale(0.9);
+    transition: 0.5s ease all;
+    font-size: 10px;
+}
+
+.botao-free:hover span a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.botao-free span{
+    background-color: inherit;
+    font-size: 14px;    
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(41, 65, 171);
+}
+
+.botao-free span a{
+    background-color: inherit;
+    text-decoration: none;
+    color:rgb(41, 65, 171);
+    font-weight: bold;
+}
+
+.menu-final{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:space-evenly; 
+    padding-top: 10%;  
+}
+
+.logo-final{
+    font-family: Helvetica, sans-serif;
+}
+
+.coluna-n{
+    display: flex;
+    flex-direction: column;
+    align-items: statr;
+    justify-content: flex-start;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.coluna-n p{
+    font-size: 12px;
+    color: #919496;
+    padding: 3px 0 15px;
+    
+}
+
+.coluna-n a{
+    text-decoration: none;
+    padding: 3px 0 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.coluna-n a:hover{
+    color: rgb(30, 215, 96);
+}
+
+.coluna-n1{
+    display: flex;
+    flex-direction: column;
+    align-items: statr;
+    justify-content: flex-start;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.coluna-n1 p{
+    font-size: 12px;
+    color: #919496;
+    padding: 3px 0 15px;
+    
+}
+
+.coluna-n1 a{
+    text-decoration: none;
+    padding: 3px 0 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.coluna-n1 a:hover{
+    color: rgb(30, 215, 96);
+}
+
+.coluna-n2{
+    display: flex;
+    flex-direction: column;
+    align-items: statr;
+    justify-content: flex-start;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.coluna-n2 p{
+    font-size: 12px;
+    color: #919496;
+    padding: 3px 0 15px;
+    
+}
+
+.coluna-n2 a{
+    text-decoration: none;
+    padding: 3px 0 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.coluna-n2 a:hover{
+    color: rgb(30, 215, 96);
+}
+
+
+footer{
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+footer h5{
+    padding-left: 5%;
+    font-family: Helvetica, sans-serif;
+    color: #919496;
+    font-size: 18px;
+}
+
+footer h5 span{
+    color: rgb(30, 215, 96);
+}
+
+footer nav{
+    margin: 20px;
+}
+
+footer nav a{
+    text-decoration: none;
+    margin: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer nav a:hover{
+    color:rgb(30, 215, 96)
+}
